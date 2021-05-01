@@ -6,7 +6,7 @@ import os
 from matplotlib import pyplot
 
 path = os.getcwd()
-image_path = "/Images/Bender.png"
+image_path = "/Images/Part_1_captured_image.png"
 path += image_path
 image = cv2.imread(path)
 check_image_type = str( type(image) )
