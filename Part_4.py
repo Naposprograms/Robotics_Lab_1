@@ -5,6 +5,7 @@ import cv2
 import os
 from matplotlib import pyplot
 
+
 path = os.getcwd()
 image_path = "/Images/Part_1_captured_image.png"
 path += image_path
