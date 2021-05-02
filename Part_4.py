@@ -12,7 +12,7 @@ path += image_path
 image = cv2.imread(path)
 check_image_type = str( type(image) )
 if check_image_type == "<class 'NoneType'>":
-    print("Revise image's path")
+    print("Revise image's path: {}".format(path))
     print("Finished execution")
     quit()
 
