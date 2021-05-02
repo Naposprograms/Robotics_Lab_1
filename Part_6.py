@@ -9,19 +9,9 @@ import sys
 
 path = os.getcwd()
 image_path = "/Images/Part_6_captured_image.png"
-path += image_path
-
-try:
-    mode = str(sys.argv[1])
-    
-    if (mode != "Select_Template" and mode != "Match_Template"):
-        raise ArgumentError
-
-except IndexError:
-    print("Script requires one argument (mode)")
-
-except ArgumentError:
-    print("Script argument should be Select_Template or Match_Template")
+template_path = "/Images/Part_6_template_image.png"
+full_image_path = path + image_path
+full_template_path = path + template_path
 
 
 def run_program():
@@ -43,4 +33,17 @@ def run_program():
 
 
 if __name__ == "__main__":
+
+    try:
+    mode = str(sys.argv[1])
+    
+    if (mode != "Select_Template" and mode != "Match_Template"):
+        raise ArgumentError
+
+    except IndexError:
+        print("Script requires one argument (mode)")
+
+    except ArgumentError:
+        print("Script argument should be Select_Template or Match_Template")
+
     run_program()
