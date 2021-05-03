@@ -1,4 +1,5 @@
-"""Dada una imagen de una figura geométrica detectar los vértices de dicha figura mediante el método de Harris Corner y marcarlos en la imagen original.
+"""
+Dada una imagen de una figura geométrica detectar los vértices de dicha figura mediante el método de Harris Corner y marcarlos en la imagen original.
 """
 import cv2
 import os
@@ -42,3 +43,4 @@ def run_program():
     
 if __name__ == "__main__":
     run_program()
+

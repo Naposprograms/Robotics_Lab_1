@@ -6,7 +6,6 @@ import Part_5
 import Part_6
 import Part_7
 
-
 Part_1.run_program()
 Part_2.run_program()
 Part_3.run_program()
