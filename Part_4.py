@@ -13,7 +13,7 @@ image = cv2.imread(path)
 check_image_type = str( type(image) )
 if check_image_type == "<class 'NoneType'>":
     print("Revise image's path: {}".format(path))
-    print("Finished execution")
+    print("Be sure to run Part_1.py before Part_4.py")
     quit()
 
 def run_program():
