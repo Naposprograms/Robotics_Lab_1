@@ -101,6 +101,7 @@ def run_program(mode):
 
         else:
             print("Revise camera")
+            quit()
 
     if (mode == "Match_Template"):
         template_image = cv2.imread(full_template_path)

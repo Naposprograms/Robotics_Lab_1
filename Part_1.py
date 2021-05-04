@@ -50,6 +50,7 @@ def run_program():
 
     else:
         print("Revise camera")
+        quit()
 
 if __name__ == "__main__":
     run_program()

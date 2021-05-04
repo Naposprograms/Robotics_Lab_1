@@ -6,7 +6,6 @@ Realizar la Umbralización adaptativa de la imagen “Herramientas”.
 
 import cv2
 import os
-import numpy
 
 
 path = os.getcwd()
